@@ -1,7 +1,7 @@
-let numero1 = parseInt(prompt("Ingrese un número: ",10));
+let numero1 = parseInt(prompt("Ingrese un número: ",0));
 let numero2 = parseInt(prompt("Ingrese otro número: ",0));
 
-while (numero1 <=0 || numero2 <= 0 || isNaN(numero1) || isNaN(numero2)){
+while (numero1 <= 0 || numero2 <= 0 || isNaN(numero1) || isNaN(numero2)){
     numero1 = parseInt(prompt("Ingrese un número: ",0));
     numero2 = parseInt(prompt("Ingrese otro número: ",0));
 }
