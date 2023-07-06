@@ -6,9 +6,10 @@ hasta introducir un numero negativo y ahí mostrar el resultado
 
 let suma = 0;
 let cuenta = 0;
+let numero = 0;
 
 do{
-    let numero = parseInt(prompt("Ingrese números, para terminar ingrese un número negativo",0));
+    numero = parseInt(prompt("Ingrese números, para terminar ingrese un número negativo",0));
 
     if(isNaN(numero)){
         numero = 0;
