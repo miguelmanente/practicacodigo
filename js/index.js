@@ -1,3 +1,4 @@
+/* Ingresados dos numeros verificar si son iguales o cual es el mayor y/o el menor */
 let numero1 = parseInt(prompt("Ingrese un número: ",0));
 let numero2 = parseInt(prompt("Ingrese otro número: ",0));
 
