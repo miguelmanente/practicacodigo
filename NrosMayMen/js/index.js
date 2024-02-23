@@ -1,10 +1,12 @@
 /* Ingresados dos numeros verificar si son iguales o cual es el mayor y/o el menor */
-let numero1 = parseInt(prompt("Ingrese un número: ",0));
-let numero2 = parseInt(prompt("Ingrese otro número: ",0));
+let numero1 = parseInt(prompt("Ingrese un número positivo: ",0));
+let numero2 = parseInt(prompt("Ingrese otro número positivo: ",0));
 
 while (numero1 <= 0 || numero2 <= 0 || isNaN(numero1) || isNaN(numero2)){
-    numero1 = parseInt(prompt("Ingrese un número: ",0));
-    numero2 = parseInt(prompt("Ingrese otro número: ",0));
+
+    alert("Los caracteres ingresados NO SON números positivos o usted ingresó letras, por favor ingrese nuevamente... ")
+    numero1 = parseInt(prompt("Ingrese un número positivo: ",0));
+    numero2 = parseInt(prompt("Ingrese otro número positivo: ",0));
 }
 
 if (numero1 == numero2){
